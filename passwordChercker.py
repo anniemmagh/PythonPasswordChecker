@@ -1,7 +1,13 @@
-user_name = input('Ani Maghlakvelidze')
+# user_name = input('Ani Maghlakvelidze')
 
-user_password =input('ABCCBABCC')
+# user_password =input('ABCCBABCC')
 
-letters = input(9)
+# letters = input(9)
 
-print(f'Hello {user_name} , your password {user_password} is {letters} long')
+# print(f'Hello {user_name} , your password {user_password} is {letters} long')
+
+username = input('What is your username ?')
+
+password = input('what is your password')
+
+print(f'{username} , your password , {password} is {len(password)} letters long')
